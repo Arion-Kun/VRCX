@@ -2,13 +2,15 @@
 .el-tabs__item, .el-pagination .btn-next, .el-pagination .btn-prev, .el-button, 
 .el-pager li.btn-quicknext, .el-pager li.btn-quickprev, .el-pagination, .el-select-dropdown__item,
 .el-collapse-item__header, .element.style, .x-link, .el-dialog__body, .el-popover__reference, .el-tabs__item,  
-.el-select .el-input .el-select__caret, .el-input__inner::placeholder, 
+.el-select .el-input .el-select__caret, .el-input__inner::placeholder, .el-icon-arrow-right.rotate, .el-icon-arrow-right,
+
 	{color: #FFFFFF!important;}
 .el-pagination .btn-next, .el-pagination .btn-prev, .el-table, .el-input__inner, .el-scrollbar, 
 .el-collapse-item__header,
 .el-table.el-table--fit.el-table--striped.el-table--enable-row-hover.el-table--enable-row-transition.el-table--mini, .el-switch__core, .el-select,
 	{background-color: #383838!important;}
 .el-dialog, .el-pager li, .el-background, .el-table_3_column_9.decending.is-leaf.is-sortable, 
+.el-input__inner,
 	{background: #383838!important}
 .x-friend-item:hover
 	{background: #252525!important}
