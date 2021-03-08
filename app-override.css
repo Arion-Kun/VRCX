@@ -1,0 +1,24 @@
+/* Arion Edits ( Arion#1223 )  */
+
+@keyframes rainbowmention {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+	-border-filter: 
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+
+.el-button.is-circle {
+animation: rainbowstatus 5s infinite linear;
+border-color: #fff!important;
+}
+
+@keyframes rainbowstatus {
+from {
+  -webkit-filter: hue-rotate(0deg);
+}
+to {
+  -webkit-filter: hue-rotate(360deg);
