@@ -12,7 +12,7 @@
 
 .el-button.is-circle {
 animation: rainbowstatus 10s infinite linear;
-border-color: ##00a1ff!important;
+border-color: #00a1ff!important;
 }
 
 @keyframes rainbowstatus {
