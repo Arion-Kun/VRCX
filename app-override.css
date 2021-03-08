@@ -1,12 +1,14 @@
 /* Arion Edits ( Arion#1223 )  */
+root:{
+   --BorderBase: #00a1ff;
+}
+
 @keyframes rainbow {
 from {
   -webkit-filter: hue-rotate(0deg);
 }
 to {
   -webkit-filter: hue-rotate(360deg);
-  
- --BorderBase: #00a1ff;
   
 .el-dialog__body
 {
