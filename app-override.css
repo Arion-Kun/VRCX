@@ -9,7 +9,7 @@
   }
 }
 
-@keyframes body{
+@keyframes bodyanim{
   from
   {
 	border-color: hue-rotate(0deg);
@@ -24,7 +24,7 @@
 {
   border: 1px solid;
   border-color: #00a1ff;
-  animation: rainbow 10s infinite linear;
+  animation: bodyanim 10s infinite linear;
 }
  
 .el-button.is-circle 
