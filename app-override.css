@@ -1,7 +1,4 @@
 /* Arion Edits ( Arion#1223 )  */
-root:{
-   --BorderBase: #00a1ff;
-}
 
 @keyframes rainbow {
 from {
@@ -14,13 +11,13 @@ to {
 .el-dialog__body
 {
   border: 1px solid;
-  border-color: var(--BorderBase);
+  border-color: #00a1ff;
   animation: rainbow 10s infinite linear;
 }
  
 .el-button.is-circle 
 {
   animation: rainbow 10s infinite linear;
-  border-color: var(--BorderBase)!important;
+  border-color: #00a1ff!important;
   border-radius: 25%!important;
 }
