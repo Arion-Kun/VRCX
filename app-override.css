@@ -9,6 +9,7 @@ from {
 }
 to {
   -webkit-filter: hue-rotate(360deg);
+}
   
 .el-dialog__body
 {
