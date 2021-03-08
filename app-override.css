@@ -10,14 +10,11 @@
 }
 
 @keyframes bodyanim{
-  from
-  {
-	border-color: hue-rotate(0deg);
-  }
-  to
-  {
-	border-color: hue-rotate(360deg);
-  }
+	0% { border-color: red; }
+	25% { border-color: yellow; }
+	50% { border-color: green; }
+	75% { border-color: blue; }
+	100% { border-color: purple; }
 }
 
 .el-dialog__body
