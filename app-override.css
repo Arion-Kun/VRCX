@@ -1,11 +1,11 @@
 /* Arion Edits ( Arion#1223 )  */
 
 .el-button.is-circle {
-animation: rainbowstatus 10s infinite linear;
+animation: rainbow 10s infinite linear;
 border-color: #00a1ff!important;
 }
 
-@keyframes rainbowstatus {
+@keyframes rainbow {
 from {
   -webkit-filter: hue-rotate(0deg);
 }
