@@ -1,13 +1,23 @@
 /* Arion Edits ( Arion#1223 )  */
-
-.el-button.is-circle {
-animation: rainbow 10s infinite linear;
-border-color: #00a1ff!important;
-}
-
 @keyframes rainbow {
 from {
   -webkit-filter: hue-rotate(0deg);
 }
 to {
   -webkit-filter: hue-rotate(360deg);
+  
+ --BorderBase: #00a1ff;
+  
+.el-dialog__body
+{
+  border: 1px solid;
+  border-color: var(--BorderBase);
+  animation: rainbow 10s infinite linear;
+}
+ 
+.el-button.is-circle 
+{
+  animation: rainbow 10s infinite linear;
+  border-color: var(--BorderBase)!important;
+  border-radius: 25%!important;
+}
