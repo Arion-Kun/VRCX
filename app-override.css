@@ -1,5 +1,4 @@
 /* Arion Edits ( Arion#1223 )  */
---AnimationDelay: 10;
 @keyframes rainbowmention {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -12,7 +11,7 @@
 
 
 .el-button.is-circle {
-animation: rainbowstatus var(--AnimationDelay)s infinite linear;
+animation: rainbowstatus 10s infinite linear;
 border-color: ##00a1ff!important;
 }
 
