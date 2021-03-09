@@ -19,22 +19,13 @@
 	100% { border-color: green; }
 }
 /* Rank Color Change Animation */
-@keyframes legendaryAnim
+@keyframes x-tag-legendaryAnim
 {
-	from
-	{
-		color: white!important;
-		border-color: white!important;
-	}
-    to
-	{
-		color: black!important;
-		border-color: black!important;
-	}
+	100% { color: black; border-color: black; }
 }
 x-tag-legendary
 {
-	animation: legendaryAnim 15s infinite linear;
+	animation: x-tag-legendaryAnim 15s infinite linear;
 }
 /* --------------------------- */
 
