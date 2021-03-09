@@ -1,7 +1,8 @@
 /* Arion Edits ( Arion#1223 )  */
 
-@keyframes rainbow {
-  from {
+@keyframes .el-button.is-circleAnim {
+  from 
+	{
     -webkit-filter: hue-rotate(0deg);
   }
   to 
@@ -10,7 +11,7 @@
   }
 }
 
-@keyframes bodyanim
+@keyframes .el-dialog__bodyAnim
 { /* red yellow green blue purple */
 	0% { border-color: #00a1ff; } 
 	25% { border-color: purple; }
@@ -21,7 +22,16 @@
 /* Rank Color Change Animation */
 @keyframes x-tag-legendaryAnim
 {
-	100% { color: black; border-color: black; }
+	from
+	{
+		color: white!important;
+		border-color: white!important;
+	}
+	to
+	{
+		color: black!important;
+		border-color: black!important;
+	}
 }
 .x-tag-legendary
 {
@@ -33,12 +43,12 @@
 {
   border: 1px solid;
   border-color: #00a1ff;
-  animation: bodyanim 10s infinite linear;
+  animation: .el-dialog__bodyAnim 10s infinite linear;
 }
  
 .el-button.is-circle 
 {
-  animation: rainbow 10s infinite linear;
+  animation: .el-button.is-circleAnim 10s infinite linear;
   border-color: #00a1ff!important;
   border-radius: 25%!important;
 }
