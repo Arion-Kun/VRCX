@@ -4,12 +4,14 @@
   from {
     -webkit-filter: hue-rotate(0deg);
   }
-  to {
+  to 
+  {
     -webkit-filter: hue-rotate(360deg);
   }
 }
 
-@keyframes bodyanim{ /* red yellow green blue purple */
+@keyframes bodyanim
+{ /* red yellow green blue purple */
 	0% { border-color: #00a1ff; } 
 	25% { border-color: purple; }
 	50% { border-color: red; }
@@ -19,16 +21,16 @@
 /* Rank Color Change Animation */
 @keyframes legendaryAnim
 {
-from
+	from
 	{
 		color: white!important;
 		border-color: white!important;
 	}
-to
+    to
 	{
 		color: black!important;
 		border-color: black!important;
-    }
+	}
 }
 x-tag-legendary
 {
