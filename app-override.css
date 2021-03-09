@@ -1,6 +1,6 @@
 /* Arion Edits ( Arion#1223 )  */
 
-@keyframes .el-button.is-circleAnim {
+@keyframes _rainbow {
   from 
 	{
     -webkit-filter: hue-rotate(0deg);
@@ -19,25 +19,10 @@
 	75% { border-color: yellow; }
 	100% { border-color: green; }
 }
-/* Rank Color Change Animation */
-@keyframes x-tag-legendaryAnim
-{
-	from
-	{
-		color: white!important;
-		border-color: white!important;
-	}
-	to
-	{
-		color: black!important;
-		border-color: black!important;
-	}
-}
+
 .x-tag-legendary
 {
-  color: white!important;
-	border-color: white!important;
-	animation: x-tag-legendaryAnim 15s infinite linear;
+	animation: _rainbow 15s infinite linear;
 }
 /* --------------------------- */
 
@@ -50,7 +35,7 @@
  
 .el-button.is-circle 
 {
-  animation: .el-button.is-circleAnim 10s infinite linear;
+  animation: _rainbow 10s infinite linear;
   border-color: #00a1ff!important;
   border-radius: 25%!important;
 }
