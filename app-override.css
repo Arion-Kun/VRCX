@@ -11,7 +11,7 @@
   }
 }
 
-@keyframes .el-dialog__bodyAnim
+@keyframes el-dialog__bodyAnim
 { /* red yellow green blue purple */
 	0% { border-color: #00a1ff; } 
 	25% { border-color: purple; }
@@ -29,7 +29,7 @@
 {
   border: 1px solid;
   border-color: #00a1ff;
-  animation: .el-dialog__bodyAnim 10s infinite linear;
+  animation: el-dialog__bodyAnim 10s infinite linear;
 }
  
 .el-button.is-circle 
