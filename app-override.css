@@ -16,6 +16,25 @@
 	75% { border-color: yellow; }
 	100% { border-color: green; }
 }
+/* Rank Color Change Animation */
+@keyframes legendaryAnim
+{
+from
+	{
+		color: white!important;
+		border-color: white!important;
+	}
+to
+	{
+		color: black!important;
+		border-color: black!important;
+	}
+}
+x-tag-legendary
+{
+	animation: legendaryAnim 15s infinite linear;
+}
+/* --------------------------- */
 
 .el-dialog__body
 {
