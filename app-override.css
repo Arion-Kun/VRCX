@@ -9,12 +9,12 @@
   }
 }
 
-@keyframes bodyanim{
-	0% { border-color: red; }
-	25% { border-color: yellow; }
-	50% { border-color: green; }
-	75% { border-color: blue; }
-	100% { border-color: purple; }
+@keyframes bodyanim{ /* red yellow green blue purple */
+	0% { border-color: blue; } 
+	25% { border-color: purple; }
+	50% { border-color: red; }
+	75% { border-color: yellow; }
+	100% { border-color: green; }
 }
 
 .el-dialog__body
