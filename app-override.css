@@ -35,6 +35,8 @@
 }
 .x-tag-legendary
 {
+  color: white!important;
+	border-color: white!important;
 	animation: x-tag-legendaryAnim 15s infinite linear;
 }
 /* --------------------------- */
