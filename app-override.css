@@ -20,6 +20,13 @@
 	100% { border-color: green; }
 }
 
+/* Mina may have forgotten to add the VIP color to the settings lol */
+.x-tag-vip
+{
+  color: red!important;
+  border-color: red!important;
+}
+
 .x-tag-legendary
 {
 	animation: _rainbow 15s infinite linear;
@@ -37,4 +44,9 @@
   animation: _rainbow 10s infinite linear;
   border-color: #00a1ff!important;
   border-radius: 25%!important;
+}
+.el-switch__core
+{
+  animation: _rainbow 10s infinite linear;
+  border-color: #00a1ff!important;
 }
