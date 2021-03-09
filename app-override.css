@@ -10,7 +10,7 @@
 }
 
 @keyframes bodyanim{ /* red yellow green blue purple */
-	0% { border-color: blue; } 
+	0% { border-color: #00a1ff; } 
 	25% { border-color: purple; }
 	50% { border-color: red; }
 	75% { border-color: yellow; }
