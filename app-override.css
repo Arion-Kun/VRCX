@@ -30,6 +30,8 @@
 .x-tag-legendary
 {
 	animation: _rainbow 15s infinite linear;
+  /* Adding shadow to distinguish between other ranks at times */
+  text-shadow: -2px 1px 2px #333, 2px 1px 2px #333, 2px -1px 0 #333, -1px -1px 0 #333;
 }
 
 .el-dialog__body
