@@ -53,7 +53,7 @@
   border-color: #00a1ff!important;
 }
 
-div.toggle-switch > .active[data-v-3cf97114] /* Dark Mode Fix for Desktop Notifications Displaying White */
+.active[data-v-3cf97114] /* Dark Mode Fix for Desktop Notifications Displaying White */
 {
   background-color: #333!important;
 }
