@@ -52,3 +52,8 @@
   animation: _rainbow 10s infinite linear;
   border-color: #00a1ff!important;
 }
+
+.label.active /* Dark Mode Fix for Desktop Notifications Displaying White */
+{
+  background-color: #333!important;
+}
