@@ -61,8 +61,5 @@
 .noty_theme__mint.noty_type__error /* Removes the background from the notify so its just 'Mildly' annoying now ;) */
 {
 background-color: rgba(0, 0, 0, 0)!important;
-}
-.noty_theme__mint.noty_bar
-{
-  margin: 2px 0!important;
+border-bottom: 0px solid #ca5a65!important;
 }
