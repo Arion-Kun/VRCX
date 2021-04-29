@@ -20,13 +20,6 @@
 	100% { border-color: green; }
 }
 
-/* Mina may have forgotten to add the VIP color to the settings lol
-.x-tag-vip
-{
-  color: red!important;
-  border-color: red!important;
-} */
-
 .x-tag-legendary
 {
 	animation: _rainbow 15s infinite linear;
@@ -62,4 +55,13 @@
 {
 background-color: rgba(0, 0, 0, 0)!important;
 border-bottom: 0px solid #ca5a65!important;
+}
+.vue-swatches__container
+{
+  background-color: rgb(50,50,50)!important;
+}
+.vue-swatches__fallback__input 
+{
+  border: 1px solid #000!important;
+  background: #333!important;
 }
