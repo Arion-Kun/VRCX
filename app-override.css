@@ -20,12 +20,12 @@
 	100% { border-color: green; }
 }
 
-/* Mina may have forgotten to add the VIP color to the settings lol */
+/* Mina may have forgotten to add the VIP color to the settings lol
 .x-tag-vip
 {
   color: red!important;
   border-color: red!important;
-}
+} */
 
 .x-tag-legendary
 {
